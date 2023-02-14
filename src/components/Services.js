@@ -2,6 +2,7 @@ import React from 'react';
 import {BsArrowUpRight} from 'react-icons/bs';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
+import { Link } from 'react-scroll';
 
 //*services data*//
 const services = [
@@ -46,7 +47,9 @@ const Services = () => {
           Experienced Front-End/WordPress Developer with 2 years of experience. Proven track record of developing and optimizing websites, creating digital products, and creating
             engaging user experiences.
           </h3>
+         <Link to="work">
           <button className="btn btn-sm">See my work</button>
+         </Link>
         </motion.div>
         {/*Services*/}
         <motion.div
